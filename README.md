@@ -1,4 +1,4 @@
-# Data-Structures-Algorithms `Hacktoberfest 2023`
+# Data-Structures-Algorithms **Hacktoberfest 2023**
 
 ![AKATSUKI CODING CLUBpng](https://github.com/hitesh-wadile/Data-Structures-Algorithms-Akatsuki-Coding-CLub/assets/93307471/9b60bd1d-a2eb-4211-bf40-3caf16f16f84)
 
@@ -83,7 +83,7 @@ git push origin <branch-name>
 **9.** **Congratulations!**  🎉 Sit and relax, you've made your contribution to Data-Structures-Algorithms repository of Akatsuki Coding Club RCPIT under Hacktoberfest 2023.  🌟
 
 <!-- Contributors -->
-## Contributors of `Hacktoberfest 2023`
+## Contributors of *Hacktoberfest 2023*
 
 <div >
 
