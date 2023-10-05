@@ -1,6 +1,6 @@
 # Data-Structures-Algorithms
 
-<div><img src="./assets/AKATSUKI CODING CLUB .png" ></div>
+
 
 ## Contributing to this Repo
 
