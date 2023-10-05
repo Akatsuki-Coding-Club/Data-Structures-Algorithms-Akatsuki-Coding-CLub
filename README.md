@@ -91,3 +91,21 @@ git push origin <branch-name>
   <img src="https://contrib.rocks/image?repo=Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub" />
 </a>
 </div>
+
+
+<div align="center">
+    <h2>Don't forget to leave a star ⭐️</h2>
+
+![GitHub forks](https://img.shields.io/github/forks/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg)
+![GitHub Issues](https://img.shields.io/github/issues/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg)
+![GitHub Issues-Closed](https://img.shields.io/github/issues-closed/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg)
+
+![GitHub Pull Request](https://img.shields.io/github/issues-pr/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg)
+![GitHub Pull Request Close](https://img.shields.io/github/issues-pr-closed/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub?color=2b9348)
+<!-- ![GitHub license](https://img.shields.io/github/license/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg) -->
+
+</div>
+
+## License
+This project is licensed under the [MIT License](LICENSE).
