@@ -1,5 +1,6 @@
 # Data-Structures-Algorithms
 
+![AKATSUKI CODING CLUB (3)](https://github.com/hitesh-wadile/Data-Structures-Algorithms-Akatsuki-Coding-CLub/assets/93307471/c4ee43ba-b0ce-47c3-a652-3b74517365b7)
 
 
 ## Contributing to this Repo
