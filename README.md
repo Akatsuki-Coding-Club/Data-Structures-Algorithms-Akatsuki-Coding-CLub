@@ -1,27 +1,43 @@
-# Data-Structures-Algorithms
+# Data-Structures-Algorithms **Hacktoberfest 2023**
 
 ![AKATSUKI CODING CLUBpng](https://github.com/hitesh-wadile/Data-Structures-Algorithms-Akatsuki-Coding-CLub/assets/93307471/9b60bd1d-a2eb-4211-bf40-3caf16f16f84)
 
+# This Project Is Perfect For Your First Pull Request
 
-## Contributing to this Repo
+🗣 **Hacktoberfest encourages participation in the open-source community, which grows bigger every year. Complete the challenge and get a tree planted on your name showing your love towards mother Earth 🌍**
 
-1. Fork [this](https://github.com/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub/fork) repository.
+📢 **Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st 🔥.**
 
-2. Clone the forked repository.
+**<a href="https://discord.com/invite/hacktoberfest"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Badge"/></a>**
+ 
+📢 **Langauges**
+<!-- Langauge badge' -->
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt=" C Badge"/>
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt=" C++ Badge"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt=" Java Badge"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt=" Python Badge"/>
+
+
+##
+# Contributing to this Repo
+
+**1.** Fork [this](https://github.com/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub/fork) repository.
+
+**2.** Clone the forked repository.
 
 ***bash***
 ```
 git clone https://github.com/<your-github-username>/project_name.git
 ```
 
-3. Navigate to the project directory.
+**3.** Navigate to the project directory.
 
 ***bash***
 ```
 cd Problems
 ```
 
-4. Creating a new branch (IMP) 🌱
+**4.** Creating a new branch (IMP) 🌱
    
 This is one of the very important steps that you should follow to contribute to Open Source. A branch helps to manage the workflow, isolate your code and does not create a mess. To create a new branch:
 
@@ -38,9 +54,9 @@ Keep your cloned repo up to date by pulling from upstream (this will also avoid 
 git pull origin main
 ```
 
-5. Make changes in source code. 🚀
+**5.** Make changes in source code. 🚀
 
-6. Stage your changes and commit 📝
+**6.** Stage your changes and commit 📝
 
 ***bash***
 
@@ -54,42 +70,42 @@ git add .
 git commit -m "<your_commit_message>"
 ```
 
-7. At this point you can use the git push command to push the changes to the current branch of your forked repository:
+**7.** At this point you can use the git push command to push the changes to the current branch of your forked repository:
 
 ***bash***
 ```
 git push origin <branch-name>
 ```
 
-8. Create a [Pull Request/PR]  
+**8.** Create a [Pull Request/PR]  
 🛠 (https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
+**9.** **Congratulations!**  🎉 Sit and relax, you've made your contribution to Data-Structures-Algorithms repository of Akatsuki Coding Club RCPIT under Hacktoberfest 2023.  🌟
+
+<!-- Contributors -->
+## Contributors of *Hacktoberfest 2023*
+
+<div >
+
+<a href="https://github.com/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub" />
+</a>
+</div>
 
 
-# LICENSE
+<div align="center">
+    <h2>Don't forget to leave a star ⭐️</h2>
 
-```
-MIT License
+![GitHub forks](https://img.shields.io/github/forks/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg)
+![GitHub Issues](https://img.shields.io/github/issues/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg)
+![GitHub Issues-Closed](https://img.shields.io/github/issues-closed/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg)
 
-Copyright (c) 2023 Akatsuki Coding Club
+![GitHub Pull Request](https://img.shields.io/github/issues-pr/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg)
+![GitHub Pull Request Close](https://img.shields.io/github/issues-pr-closed/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub?color=2b9348)
+<!-- ![GitHub license](https://img.shields.io/github/license/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub.svg) -->
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+</div>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-```
+## License
+This project is licensed under the [MIT License](LICENSE).
