@@ -1,6 +1,5 @@
 # Data-Structures-Algorithms **Hacktoberfest 2023**
-
-![AKATSUKI CODING CLUBpng](https://github.com/hitesh-wadile/Data-Structures-Algorithms-Akatsuki-Coding-CLub/assets/93307471/9b60bd1d-a2eb-4211-bf40-3caf16f16f84)
+![AKATSUKI CODING CLUBpng](https://github.com/Akatsuki-Coding-Club/Data-Structures-Algorithms-Akatsuki-Coding-CLub/assets/146124716/a1b4b4b4-a709-4f53-a882-072583d56afc)
 
 # This Project Is Perfect For Your First Pull Request
 
