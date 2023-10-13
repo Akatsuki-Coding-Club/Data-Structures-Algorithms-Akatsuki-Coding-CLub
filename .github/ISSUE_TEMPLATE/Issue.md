@@ -7,7 +7,8 @@ assignees: ''
 
 ---
 
-
+## ❗Write Code in Only One Language ( CPP , C , Java , Python )
+###  Give File Name :  `filename`  ✅ In respective language folder  
 
 # 📑 DESCRIPTION
 
