@@ -2,42 +2,50 @@
 
 #include <iostream>
 #include <climits>
+using namespace std;
 
-class Solution {
-public:
-    int reverse(int x) {
-        const int INT_MAX = 2147483647;
-        const int INT_MIN = -2147483648;
+void rotateArr(int arr[], int D, int N) {
+    D = D % N;
+    int temp[D];
 
-        long long result = 0;
-        while (x != 0) {
-            int pop = x % 10;
-            x /= 10;
-
-            result = result * 10 + pop;
-
-            if (result > INT_MAX || result < INT_MIN) {
-                return 0;
-            }
-        }
-
-        return static_cast<int>(result);
+    
+    for (int i = 0; i < D; i++) {
+        temp[i] = arr[i];
     }
-};
+
+   
+    for (int i = D; i < N; i++) {
+        arr[i - D] = arr[i];
+    }
+
+    
+    for (int i = N - D; i < N; i++) {
+        arr[i] = temp[i - (N - D)];
+    }
+}
 
 int main() {
-    Solution solution;
+    int N, D;
+    cout << "Enter the size of the array = ";
+    cin >> N;
 
-    // Taking input from the user
-    int x;
-    std::cout << "Enter an integer: ";
-    std::cin >> x;
+    int arr[N];
 
-    // Using the reverse method from the Solution class
-    int reversed = solution.reverse(x);
+    cout << "Enter the elements of the array =  ";
+    for (int i = 0; i < N; i++) {
+        cin >> arr[i];
+    }
 
-    // Displaying the result
-    std::cout << "Reversed integer: " << reversed << std::endl;
+    cout << "Enter the number of rotations =  ";
+    cin >> D;
+
+    
+    rotateArr(arr, D, N);
+
+    cout << "New Rotated array: ";
+    for (int i = 0; i < N; i++) {
+        cout << arr[i] << " ";
+    }
 
     return 0;
 }
