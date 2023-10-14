@@ -10,7 +10,5 @@ class Solution:
             if A[i] >= maxele:
                 ans.append(A[i])
                 maxele = A[i]
-           
-
         
         return reversed(ans)
