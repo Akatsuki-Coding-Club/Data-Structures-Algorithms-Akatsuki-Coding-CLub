@@ -1,19 +1,22 @@
-def insertion_sort(arr):
-    for i in range(1, len(arr)):
-        # The current element to be compared
-        current_element = arr[i]
-        j = i - 1
+def insert(arr, i):
+    key = arr[i]
+    j = i - 1
+    while j >= 0 and key < arr[j]:
+        arr[j + 1] = arr[j]
+        j -= 1
+    arr[j + 1] = key
 
-        # Move elements of arr[0..i-1] that are greater than current_element
-        # to one position ahead of their current position
-        while j >= 0 and current_element < arr[j]:
-            arr[j + 1] = arr[j]
-            j -= 1
+def insertionSort(arr):
+    n = len(arr)
+    for i in range(1, n):
+        insert(arr, i)
 
-        # Place the current element in its correct position
-        arr[j + 1] = current_element
+# Example 1
+arr1 = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+insertionSort(arr1)
+print("Sorted array (Example 1):", arr1)
 
-# Example usage:
-my_list = [12, 11, 13, 5, 6]
-insertion_sort(my_list)
-print("Sorted array is:", my_list)
+# Example 2
+arr2 = [4, 1, 3, 9, 7]
+insertionSort(arr2)
+print("Sorted array (Example 2):", arr2)
