@@ -1,36 +1,20 @@
 import java.util.Scanner;
 
 public class Valid_palindrome {
-    public static boolean isPalindrome(String s) {
-        if (s.isEmpty()) {
-            return true;
-        }
-        int start = 0;
-        int last = s.length() - 1;
-        while (start <= last) {
-            char currFirst = s.charAt(start);
-            char currLast = s.charAt(last);
-            if (!Character.isLetterOrDigit(currFirst)) {
-                start++;
-            } else if (!Character.isLetterOrDigit(currLast)) {
-                last--;
-            } else {
-                if (Character.toLowerCase(currFirst) != Character.toLowerCase(currLast)) {
-                    return false;
-                }
-                start++;
-                last--;
-            }
-        }
-        return true;
+    public static boolean isPalindrome(int x) {
+        if(x<0 ||(x % 10 == 0 && x != 0)) return false;
+        int reversedhalf = 0;
+        while(x > reversedhalf){
+            reversedhalf = reversedhalf * 10 + x % 10;
+            x /= 10; }
+        return (x == reversedhalf || x == reversedhalf / 10) ? true : false;
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter String: ");
-        String s = sc.nextLine();
-        boolean ans = isPalindrome(s);
+        System.out.println("Enter Integer: ");
+        int num = sc.nextInt();
+        boolean ans = isPalindrome(num);
         System.out.println(ans);
-
     }
 }
