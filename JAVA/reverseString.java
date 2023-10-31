@@ -18,10 +18,11 @@ public class reverseString {
 
         return new String(chars);
     }
+
     public static void main(String args[]){
-       String str="Hacktoberfest";
+       String str="Dream big"; // Changed the input string
        //calling the function which will return a string so we are printing that
        System.out.println(reverse(str));
     }
-    
 }
+
